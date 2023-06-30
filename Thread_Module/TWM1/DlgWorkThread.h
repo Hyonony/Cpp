@@ -14,11 +14,9 @@ class CDlgWorkThread : public CDialogEx
 	DECLARE_DYNAMIC(CDlgWorkThread)
 
 	CProgress1Thread m_PThread1;
-	CProgress1Thread m_PThread2;
-	CProgress1Thread m_PThread3;
-	CProgress1Thread m_PThread4;
-
-
+	CProgress2Thread m_PThread2;
+	CProgress3Thread m_PThread3;
+	CProgress4Thread m_PThread4;
 
 public:
 	CDlgWorkThread(CWnd* pParent = NULL);   // 표준 생성자입니다.
@@ -50,4 +48,5 @@ public:
 	CButton m_Button2;
 	CButton m_Button3;
 	CButton m_Button4;
+	afx_msg void OnDestroy();
 };

@@ -27,5 +27,6 @@ int CProgress1Thread::sequence()
 		m_CurrentPos = 0;
 	}
 
+
 	return 0;
 }

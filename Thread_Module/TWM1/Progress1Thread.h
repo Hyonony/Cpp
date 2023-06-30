@@ -11,9 +11,7 @@ public:
 	CProgress1Thread(CProgressCtrl& progress);
 	~CProgress1Thread();
 
-
 private:
-	int sequence();
+	virtual int sequence();
 
 };
-

@@ -4,7 +4,7 @@
 
 class CWorkThread 
 {
-	CWinThread* m_pThread;
+	
 public:
 	enum _eWT_STATUS{ 
 		eNONE = 0, 
@@ -21,10 +21,10 @@ public:
 	int getThreadStatus();
 
 private:
+	CWinThread* m_pThread;
 	static UINT ThreadProc(LPVOID lpParam);
-	virtual int sequence();
+	virtual int sequence() = 0;
 
-	LPVOID m_lpParam;
 	DWORD m_dwTimeout;
 	HANDLE m_hThread;
 	int m_threadStatus;
