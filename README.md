@@ -15,3 +15,4 @@
  
 - 기능 
   - 각각의 Thread 사용
+  - WaitForSingleObject GetExitCodeThread
