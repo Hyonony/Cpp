@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  stdafx.cpp
+  DynamicTest2.cpp
+d:\library_hyeoneonoh\module\dynamic\include\mystring.h(14): warning C4251: 'CMyString::m_upBuffer' : class 'std::unique_ptr<_Ty>'에서는 class 'CMyString'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=char []
+          ]
+  DynamicTest2.vcxproj -> D:\Library_Hyeoneonoh\Module\Dynamic\lib\DynamicTest2.exe

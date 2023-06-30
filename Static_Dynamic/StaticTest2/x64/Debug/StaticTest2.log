@@ -1,0 +1,33 @@
+﻿빌드 시작: 2023-06-27 오후 5:03:39
+     1>2 노드의 "D:\Library_Hyeoneon\StaticTest2\StaticTest2.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\StaticTest2.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\Library_Hyeoneon\Module\Static\include\ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\StaticTest2.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\Library_Hyeoneon\Module\Static\include\ /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\StaticTest2.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt StaticTest2.cpp
+         StaticTest2.cpp
+     1>StaticTest2.cpp(3): warning C4627: '#include <iostream>': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'StdAfx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"x64\Debug\StaticTest2.exe.embed.manifest.res" x64\Debug\StaticTest2_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Library_Hyeoneon\Module\Static\lib\StaticTest2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\StaticTest2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Library_Hyeoneon\Module\Static\lib\StaticTest2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Library_Hyeoneon\Module\Static\lib\StaticTest2.lib" /MACHINE:X64 x64\Debug\StaticTest2.exe.embed.manifest.res
+         x64\Debug\StaticTest2.obj
+         x64\Debug\stdafx.obj
+     1>StaticTest2.obj : error LNK2019: "class CMyString __cdecl CurrentDate(void)" (?CurrentDate@@YA?AVCMyString@@XZ) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>StaticTest2.obj : error LNK2019: "class CMyString __cdecl CurrentTime(void)" (?CurrentTime@@YA?AVCMyString@@XZ) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>StaticTest2.obj : error LNK2019: "class CMyString __cdecl Double(double)" (?Double@@YA?AVCMyString@@N@Z) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>StaticTest2.obj : error LNK2019: "class CMyString __cdecl UnsignedInt(unsigned int)" (?UnsignedInt@@YA?AVCMyString@@I@Z) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>StaticTest2.obj : error LNK2019: "public: __cdecl CMyString::operator char *(void)" (??BCMyString@@QEAAPEADXZ) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>StaticTest2.obj : error LNK2019: "class CMyString __cdecl IntegerTo(int)" (?IntegerTo@@YA?AVCMyString@@H@Z) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>StaticTest2.obj : error LNK2019: "int __cdecl division(int,int)" (?division@@YAHHH@Z) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>StaticTest2.obj : error LNK2019: "int __cdecl multiplication(int,int)" (?multiplication@@YAHHH@Z) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>StaticTest2.obj : error LNK2019: "int __cdecl subraction(int,int)" (?subraction@@YAHHH@Z) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>StaticTest2.obj : error LNK2019: "int __cdecl additon(int,int)" (?additon@@YAHHH@Z) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+     1>D:\Library_Hyeoneon\Module\Static\lib\StaticTest2.exe : fatal error LNK1120: 10개의 확인할 수 없는 외부 참조입니다.
+     1>"D:\Library_Hyeoneon\StaticTest2\StaticTest2.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.68

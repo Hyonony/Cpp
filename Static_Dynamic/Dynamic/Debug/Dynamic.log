@@ -1,0 +1,32 @@
+﻿  stdafx.cpp
+  Timer.cpp
+  MyString.cpp
+d:\library_hyeoneonoh\dynamic\mystring.cpp(100): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(354) : 'vsnprintf' 선언을 참조하십시오.
+  Log.cpp
+  GetString.cpp
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(8): warning C4190: 'IntegerTo'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(9): warning C4190: 'UnsignedInt'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(10): warning C4190: 'Double'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(11): warning C4190: 'CurrentTime'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(12): warning C4190: 'CurrentDate'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\dynamic\getstring.cpp(6): warning C4190: 'IntegerTo'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\dynamic\getstring.cpp(13): warning C4190: 'UnsignedInt'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\dynamic\getstring.cpp(20): warning C4190: 'Double'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\dynamic\getstring.cpp(27): warning C4190: 'CurrentTime'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\dynamic\getstring.cpp(41): warning C4190: 'CurrentDate'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+  Dynamic.cpp
+  calculation.cpp
+  코드를 생성하고 있습니다...
+     D:\Library_Hyeoneonoh\Module\Dynamic\lib\Dynamic.lib 라이브러리 및 D:\Library_Hyeoneonoh\Module\Dynamic\lib\Dynamic.exp 개체를 생성하고 있습니다.
+  Dynamic.vcxproj -> D:\Library_Hyeoneonoh\Module\Dynamic\lib\Dynamic.dll

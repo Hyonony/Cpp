@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  stdafx.cpp
+  DynamicTest.cpp
+d:\library_hyeoneonoh\module\dynamic\include\mystring.h(14): warning C4251: 'CMyString::m_upBuffer' : class 'std::unique_ptr<_Ty>'에서는 class 'CMyString'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=char []
+          ]
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(8): warning C4190: 'IntegerTo'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(9): warning C4190: 'UnsignedInt'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(10): warning C4190: 'Double'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(11): warning C4190: 'CurrentTime'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+d:\library_hyeoneonoh\module\dynamic\include\getstring.h(12): warning C4190: 'CurrentDate'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'CMyString'을(를) 반환합니다.
+          d:\library_hyeoneonoh\module\dynamic\include\mystring.h(13) : 'CMyString' 선언을 참조하십시오.
+  DynamicTest.vcxproj -> D:\Library_Hyeoneonoh\Module\Dynamic\lib\DynamicTest.exe
