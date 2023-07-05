@@ -16,3 +16,4 @@
 - 기능 
   - 각각의 Thread 사용
   - WaitForSingleObject GetExitCodeThread
+  - Control I/O (byte bit연산을 통한 I/O 꺼내쓰기)
